@@ -135,6 +135,15 @@ ul{
     background-color: #3882f6;
 }
 
+footer{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: #1f2937;
+    color: white;
+    padding: 40px;
+}
+
 #frieren{
     width: 500px;
     height: auto;
