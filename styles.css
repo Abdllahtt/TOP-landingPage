@@ -73,6 +73,25 @@ ul{
     justify-content: space-around;
 
 }
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+}
+.illustration{
+    width: 175px;
+    height: 175px;
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+}
+.subtext{
+    text-align: center;
+    color: #5c5252;
+}
+
 .quote{
     display: flex;
     flex-direction: column;
@@ -93,25 +112,31 @@ ul{
     font-size: 1.5rem;
     color: #1f2937;
 }
-.card{
+.cta-section{
+    padding: 100px 150px 100px 150px;
+}
+.call-to-action{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    gap: 10px;
-}
-.illustration{
-    width: 175px;
-    height: 175px;
-    border: 4px solid #3882f6;
+    justify-content:space-between;
+    align-items:center;
+    background-color: #3882f6;
+    padding: 50px 100px 50px 100px ;
     border-radius: 10px;
+    color: #ffffff;
 }
-.subtext{
-    text-align: center;
-    color: #5c5252;
+
+#cta-button{
+    padding: 5px 30px 5px 30px;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #3882f6;
 }
 
 #frieren{
     width: 500px;
     height: auto;
 }
+
