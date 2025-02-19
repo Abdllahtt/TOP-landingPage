@@ -73,6 +73,26 @@ ul{
     justify-content: space-around;
 
 }
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 200px 100px 200px;
+    background-color: #1f293717;
+}
+#inspiring-quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+#author{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #1f2937;
+}
 .card{
     display: flex;
     flex-direction: column;
