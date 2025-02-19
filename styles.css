@@ -54,6 +54,10 @@ ul{
     color: #ffffff;
     background-color: #3882f6;
 }
+#sky{
+    width: 500px;
+    height: auto;
+}
 
 .info-section{
     display: flex;
@@ -144,8 +148,5 @@ footer{
     padding: 40px;
 }
 
-#frieren{
-    width: 500px;
-    height: auto;
-}
+
 
