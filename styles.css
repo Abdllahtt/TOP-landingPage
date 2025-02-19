@@ -28,9 +28,35 @@ ul{
     gap: 15px;
     list-style-type: none;
 }
+.hero{
+    display: flex;
+    background-color: #1f2937;
+    padding: 50px 150px 50px 150px;
+    gap: 75px;
+}
+#hero-main-text{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+#hero-secondary-text{
+    color: #e5e7eb;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+#hero-button{
+    padding: 5px 30px 5px 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #3882f6;
+}
 
 #frieren{
-    width: 300px;
+    width: 500px;
     height: auto;
 }
 .illustration{
