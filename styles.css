@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin: 0px;
+    font-family: Roboto,sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 15px 150px 15px 150px;
+    
+}
+#logo{
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+.nav-link{
+    color: #ffffffcc;
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+}
+
+#frieren{
+    width: 300px;
+    height: auto;
+}
+.illustration{
+    width: 150px;
+    height: 150px;
+    border: 2px solid lightblue;
+}
